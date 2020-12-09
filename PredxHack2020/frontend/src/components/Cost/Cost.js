@@ -198,7 +198,7 @@ function Income(event){
 
     const body = JSON.stringify(output)
 
-    axios.post('http://127.0.0.1:5000/cost',body,config)
+    axios.post('http://0.0.0.0:5000/cost',body,config)
         .then(res => {
           info(res.data)
         })
