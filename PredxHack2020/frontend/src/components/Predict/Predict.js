@@ -226,7 +226,7 @@ const handleChange = selected => {
 
     const body = JSON.stringify(output)
 
-    axios.post('http://127.0.0.1:5000/predict',body,config)
+    axios.post('http://0.0.0.1:5000/predict',body,config)
         .then(res => {
           //console.log(res.data)
           var maxlen=Math.max(res.data[0][0].length,res.data[1][0].length,res.data[2][0].length)
