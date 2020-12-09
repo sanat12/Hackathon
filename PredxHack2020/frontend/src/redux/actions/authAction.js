@@ -74,7 +74,7 @@ export const login = ({email,password}) => async (dispatch,getState) =>{
 
     const body = JSON.stringify({email,password})
 
-    axios.post('http://127.0.0.1:5000/login',body,config)
+    axios.post('http://0.0.0.0:5000/login',body,config)
         .then(res => {
         
         if(res.data.message=="1")
