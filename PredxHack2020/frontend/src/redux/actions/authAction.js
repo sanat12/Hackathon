@@ -29,7 +29,7 @@ export const register = ({username,email,password})=> async (dispatch,getState) 
         message.error(value);
       };
 
-    axios.post(' http://127.0.0.1:5000/register',body,config)
+    axios.post(' http://0.0.0.0:4000/register',body,config)
         .then(res =>{
         if(res.data.message=="1")
             error("Please enter all the details.");
