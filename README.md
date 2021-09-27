@@ -1,3 +1,7 @@
+## DEMO of the web-app
+
+https://user-images.githubusercontent.com/58564545/134795772-47c0342f-19aa-4d3e-9941-9710e8abb0c2.mp4
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +72,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Getting Started with Flask
+Go to the Backend directory and run the following commands
+```
+pip install requirements.txt
+```
+
+```
+python app.py
+```
+## Contributors
+* Komal T Behera
+* Swagat Kumar
+* Sanat Kumar Panda
+* Srilipta Swain
+* Aakash Padhy
+
+
