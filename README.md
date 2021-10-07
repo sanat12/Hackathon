@@ -82,11 +82,6 @@ pip install requirements.txt
 ```
 python app.py
 ```
-## Contributors
-* Komal T Behera
-* Swagat Kumar
-* Sanat Kumar Panda
-* Srilipta Swain
-* Aakash Padhy
+
 
 
